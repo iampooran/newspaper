@@ -22,7 +22,7 @@ export default function Topheader() {
             </Link>
         </div>
         <div className="topRight">
-            topRight
+           <a href="https://developer.nytimes.com/" className='navbarAnchorLink' target="popup"><span className='copyrightText'>Data provided by The New York Times</span></a>
         </div>
     </div>
   )
