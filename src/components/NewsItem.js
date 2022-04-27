@@ -1,10 +1,13 @@
 import React from 'react'
+import "./news.css"
 
 const NewsItem = (props)=> {
         let {title} = props;
         return (
              <div>
-               <h5 className="card-title">{title}</h5>
+               <div class="grid-container">
+                        <span className="gridTitle">{title}</span>
+                </div>
             </div>
         )     
 }

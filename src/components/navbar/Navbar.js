@@ -14,9 +14,6 @@ export default function Navbar() {
             <Link className="navbarAnchorLink" to="/">
                 <li className="navbarLink">Home</li>
             </Link>
-            <Link className="navbarAnchorLink" to="/world">
-                <li className="navbarLink">World</li>
-            </Link>
             <Link className="navbarAnchorLink" to="/us">
                 <li className="navbarLink">U.S.</li>
             </Link>
@@ -26,35 +23,35 @@ export default function Navbar() {
             <Link className="navbarAnchorLink" to="/automobiles">
                 <li className="navbarLink">Automobiles</li>
             </Link>
-            <Link className="navbarAnchorLink" to="/business">
-                <li className="navbarLink">Business</li>
+            <Link className="navbarAnchorLink" to="/arts">
+                <li className="navbarLink">Arts</li>
             </Link>
-            <Link className="navbarAnchorLink" to="/fashion">
-                <li className="navbarLink">Fashion</li>
+            <Link className="navbarAnchorLink" to="/obituaries">
+                <li className="navbarLink">Obituaries</li>
             </Link>
             <Link className="navbarAnchorLink" to="/food">
                 <li className="navbarLink">Food</li>
             </Link>
-            <Link className="navbarAnchorLink" to="/insider">
-                <li className="navbarLink">Insider</li>
+            <Link className="navbarAnchorLink" to="/opinion">
+                <li className="navbarLink">Opinion</li>
             </Link>
             <Link className="navbarAnchorLink" to="/movies">
                 <li className="navbarLink">Movies</li>
             </Link>
-            <Link className="navbarAnchorLink" to="/science">
-                <li className="navbarLink">Science</li>
+            <Link className="navbarAnchorLink" to="/sundayreview">
+                <li className="navbarLink">Sunday Review</li>
             </Link>
             <Link className="navbarAnchorLink" to="/sports">
                 <li className="navbarLink">Sports</li>
             </Link>
-            <Link className="navbarAnchorLink" to="/technology">
-                <li className="navbarLink">Technology</li>
+            <Link className="navbarAnchorLink" to="/theater">
+                <li className="navbarLink">Theater</li>
             </Link>
-            <Link className="navbarAnchorLink" to="/travel">
-                <li className="navbarLink">Travel</li>
+            <Link className="navbarAnchorLink" to="/t-magazine">
+                <li className="navbarLink">T Magazine</li>
             </Link>
-            <Link className="navbarAnchorLink" to="/health">
-                <li className="navbarLink">Health</li>
+            <Link className="navbarAnchorLink" to="/upshot">
+                <li className="navbarLink">Upshot</li>
             </Link>
             <Link className="navbarAnchorLink" to="/books">
                 <li className="navbarLink">Books</li>

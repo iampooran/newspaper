@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Libre+Franklin:wght@100;200;400;500;600&display=swap');
+
+.footer{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.setColor{
+    color: #666666;
+}
+
+.copyrightImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
