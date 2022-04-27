@@ -14,7 +14,7 @@ export default function Maingrid() {
             <div className="centerNews">
                 <span className='mainHeading'><NewsCenter/></span>
                 <span className='mainDescription'>
-                New audio recordings reveal Kevin McCarthy worried that comments by his far-right colleagues could incite violence. He said he would try to rein in the lawmakers, but has instead defended them.
+                <a className='articleLink' href="https://www.nytimes.com/2022/04/26/us/politics/mccarthy-republican-lawmakers.html">New audio recordings reveal Kevin McCarthy worried that comments by his far-right colleagues could incite violence. He said he would try to rein in the lawmakers, but has instead defended them.</a>
                 </span>
             </div>
             <div className="rightNews">
