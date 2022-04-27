@@ -43,15 +43,3 @@
     font-size: 13px;
 }
 
-
-
-@media screen and (max-width: 800px) {
-    .logo{
-        width: 70%;
-        object-fit: contain;
-        margin: 0;
-    }
-    .topLeft{
-        display: none;
-    }
-  }
