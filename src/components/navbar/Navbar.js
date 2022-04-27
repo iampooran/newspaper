@@ -62,7 +62,6 @@ export default function Navbar() {
                 <li className="navbarLink">T Magazine</li>
             </a>
         </ul>
-        
     </div>
     <div className="container navbar"></div>
     

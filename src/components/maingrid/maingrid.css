@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Libre+Franklin:wght@100;200;400;500;600&display=swap');
+*{
+    font-family: 'Domine', serif;
+}
+.maingrid{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.leftNews{
+    flex: 4;
+    
+}
+
+.rightNews{
+    flex:4;
+    
+    
+}
+
+.centerNews{
+    flex: 7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-right: 2px solid #DFDFDF;
+    border-left: 2px solid #DFDFDF;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.maingridImg{
+    width: 100%;
+    display: block;
+    height: 300px;
+    object-fit: cover;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mainHeading{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.mainDescription{
+    font-weight: 400;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.leftNewsItem,.rightNewsItem{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.rightNewsItem{
+    margin-left: 15px;
+    
+}
