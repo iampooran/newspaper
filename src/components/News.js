@@ -6,10 +6,15 @@ const News = (props)=>{
     const [results, setResults] = useState([])
     
     const updateNews = async ()=> {
+        props.setProgress(10);
         const url = `https://api.nytimes.com/svc/topstories/v2/${props.category}.json?api-key=Iyk6nS3LlJc9Jg960gFjI7JmjPyi7aAe`;
+        props.setProgress(20);
         let data = await fetch(url);
+        props.setProgress(40);
         let parsedData = await data.json()
+        props.setProgress(70);
         setResults(parsedData.results)
+        props.setProgress(100);
     }
     
     useEffect(() => {
