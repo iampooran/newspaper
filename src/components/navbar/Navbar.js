@@ -61,11 +61,10 @@ export default function Navbar() {
             <a className="navbarAnchorLink" href="/">
                 <li className="navbarLink">T Magazine</li>
             </a>
-            
         </ul>
         
     </div>
-    <div className="container navbar2"></div>
+    <div className="container navbar"></div>
     
     </>
   )
