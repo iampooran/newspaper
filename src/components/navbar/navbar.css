@@ -36,6 +36,11 @@
     font-weight: 500;
     
 }
+.navbar2{
+    border-bottom: 1px solid #000;   
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
 
 .navbarAnchorLink{
     text-decoration: none;
@@ -50,3 +55,23 @@
     border-radius: 1rem;
     
 }
+
+.toggleBar{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .toggleBar{
+      display: inline;
+      cursor: pointer;
+    }
+    .navbarAnchorLink{
+        display: none;
+    }
+    .navbar2{
+        border-bottom: none;
+    }
+    .navbar{
+        border-top: none;
+    }
+  }

@@ -19,7 +19,7 @@ export default function Topheader() {
             <img className='logo' src={logo} alt="" />
         </div>
         <div className="topRight">
-            topRight
+          <i class="toggleBar fa-solid fa-bars"></i>
         </div>
     </div>
   )
