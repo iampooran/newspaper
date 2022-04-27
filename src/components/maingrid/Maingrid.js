@@ -1,4 +1,6 @@
 import React from 'react'
+import NewsLeft from '../newsItemLeft/News'
+import NewsRight from '../newsItemRight/News'
 import "./maingrid.css"
 
 export default function Maingrid() {
@@ -6,16 +8,7 @@ export default function Maingrid() {
       <>
         <div className='container maingrid'>
             <div className="leftNews">
-                <span className='leftNewsItem'>News</span>
-                <span className='leftNewsItem'>News</span>
-                <span className='leftNewsItem'>News</span>
-                <span className='leftNewsItem'>News</span>
-                <span className='leftNewsItem'>News</span>
-                <span className='leftNewsItem'>News</span>
-                <span className='leftNewsItem'>News</span>
-                <span className='leftNewsItem'>News</span>
-                <span className='leftNewsItem'>News</span>
-                <span className='leftNewsItem'>News</span>
+                <NewsLeft/>
             </div>
             <div className="centerNews">
                 <span className='mainHeading'>Heading</span>
@@ -25,16 +18,7 @@ export default function Maingrid() {
                 </span>
             </div>
             <div className="rightNews">
-                <span className='rightNewsItem'>News</span>
-                <span className='rightNewsItem'>News</span>
-                <span className='rightNewsItem'>News</span>
-                <span className='rightNewsItem'>News</span>
-                <span className='rightNewsItem'>News</span>
-                <span className='rightNewsItem'>News</span>
-                <span className='rightNewsItem'>News</span>
-                <span className='rightNewsItem'>News</span>
-                <span className='rightNewsItem'>News</span>
-                <span className='rightNewsItem'>News</span>
+            <NewsRight/>
             </div>
         </div>
       </>
