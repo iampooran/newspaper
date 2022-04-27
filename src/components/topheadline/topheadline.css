@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Libre+Franklin:wght@100;200;400;500;600&display=swap');
+*{
+    font-family: 'Domine', serif;
+}
+
+
+.leftTopHeadLine{
+    flex: 5;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.centerTopHeadLine{
+    flex:5;
+    border-right: 2px solid #DFDFDF;
+    border-left: 2px solid #DFDFDF;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.rightTopHeadLine{
+    flex: 5;
+    
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.topHealineH2{
+    text-align: center;
+
+}

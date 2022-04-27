@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from 'react'
-import NewsItem from './NewsItem'
+import NewsItem from './LeftTopHeadline'
 
-const News = (props)=>{
+const LeftTopHeadlineNews = (props)=>{
     const [results, setResults] = useState([])
     
     const updateNews = async ()=> {
-        const url = "https://api.nytimes.com/svc/news/v3/content/all/all.json?api-key=Iyk6nS3LlJc9Jg960gFjI7JmjPyi7aAe&limit=8&offset=15";
+        const url = "https://api.nytimes.com/svc/news/v3/content/all/all.json?api-key=Iyk6nS3LlJc9Jg960gFjI7JmjPyi7aAe&limit=20&offset=41";
         let data = await fetch(url);
         let parsedData = await data.json()
         setResults(parsedData.results)
@@ -21,6 +21,7 @@ const News = (props)=>{
                              {results.map((element) => {
                                  return <div className="col-md-4" key={element.url}>
                                      <a className='articleLink' href={element.url}><NewsItem title={element.title}/></a>
+                                     
                                  </div>
                              })}
                          </div>
@@ -29,6 +30,4 @@ const News = (props)=>{
         )
     
 }
-
-
-export default News
+export default LeftTopHeadlineNews

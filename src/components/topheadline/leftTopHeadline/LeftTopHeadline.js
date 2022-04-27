@@ -1,6 +1,6 @@
 import React from 'react'
 
-const NewsItem = (props)=> {
+const LeftTopHeadline = (props)=> {
         let { title} = props;
         return (
              <div>
@@ -10,4 +10,4 @@ const NewsItem = (props)=> {
      
 }
 
-export default NewsItem
+export default LeftTopHeadline

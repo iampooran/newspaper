@@ -20,7 +20,8 @@ const News = (props)=>{
                          <div className="row">
                              {results.map((element) => {
                                  return <div className="col-md-4" key={element.url}>
-                                     <NewsItem title={element.title}/>
+                                     <a className='articleLink' href={element.url}><NewsItem title={element.title}/></a>
+                                     
                                  </div>
                              })}
                          </div>
@@ -29,6 +30,4 @@ const News = (props)=>{
         )
     
 }
-
-
 export default News
