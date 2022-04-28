@@ -3,14 +3,15 @@ import NewsItem from './CenterTopHeadline'
 
 const CenterTopHeadlineNews = (props)=>{
     const [results, setResults] = useState([])
-    
+
     const updateNews = async ()=> {
-        const url = "https://api.nytimes.com/svc/news/v3/content/all/all.json?api-key=Iyk6nS3LlJc9Jg960gFjI7JmjPyi7aAe&limit=20";
+        const url = "https://api.nytimes.com/svc/news/v3/content/nyt/all.json?api-key=Iyk6nS3LlJc9Jg960gFjI7JmjPyi7aAe&limit=20&offset=15";
         let data = await fetch(url);
         let parsedData = await data.json()
         setResults(parsedData.results)
     }
     useEffect(() => {
+        document.title = "Newspaper";
         updateNews(); 
     }, [])
         return (

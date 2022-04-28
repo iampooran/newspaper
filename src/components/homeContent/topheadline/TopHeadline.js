@@ -24,7 +24,7 @@ export default function TopHeadline() {
                 <CenterTopHeadline/>
             </div>
             <div className="rightTopHeadLine">
-                <h2 className='topHealineH2'>Trending</h2>
+                <h2 className='topHealineH2'>Business</h2>
                 <RightTopHeadline setProgress={setProgress}/>
             </div>
         </div>

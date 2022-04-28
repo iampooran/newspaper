@@ -4,6 +4,10 @@ import "./news.css"
 
 const News = (props)=>{
     const [results, setResults] = useState([])
+
+    const capitalizeFirstLetter = (string) => {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
     
     const updateNews = async ()=> {
         props.setProgress(10);
@@ -18,6 +22,7 @@ const News = (props)=>{
     }
     
     useEffect(() => {
+        document.title = `${capitalizeFirstLetter(props.category)} - Newspaper`;
         updateNews(); 
         // eslint-disable-next-line
     }, [])

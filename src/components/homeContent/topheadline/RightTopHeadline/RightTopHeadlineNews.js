@@ -7,7 +7,7 @@ const RightTopHeadlineNews = (props)=>{
     
     const updateNews = async ()=> {
         props.setProgress(10);
-        const url = "https://api.nytimes.com/svc/news/v3/content/all/all.json?api-key=Iyk6nS3LlJc9Jg960gFjI7JmjPyi7aAe&limit=20&offset=20";
+        const url = "https://api.nytimes.com/svc/news/v3/content/nyt/business.json?api-key=Iyk6nS3LlJc9Jg960gFjI7JmjPyi7aAe&limit=20&offset=20";
         props.setProgress(20);
         let data = await fetch(url);
         props.setProgress(40);
